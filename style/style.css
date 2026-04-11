@@ -1,0 +1,136 @@
+/* General page setup */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: azure;
+  color: #111;
+}
+
+/* Header */
+.site-header {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Links */
+.link {
+  display: inline-block;
+  margin: 10px 0;
+  color: blue;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Skills list */
+.skills {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #e6f2ff;
+  margin: 5px auto;
+  padding: 8px;
+  width: 60%;
+  border-radius: 8px;
+}
+
+/* Image */
+.stack-img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Table */
+.schedule {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 700px;
+}
+
+.schedule th,
+.schedule td {
+  border: 1px solid #333;
+  padding: 10px;
+}
+
+.schedule th {
+  background: #d9ecff;
+}
+
+/* Button link */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: yellow;
+  color: black;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 40px;
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.site-footer a {
+  color: lightblue;
+}
+
+/* Main layout */
+.lyrics-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Cover image */
+.cover {
+  width: 800px;
+  max-width: 200%;
+  border-radius: 20px;
+  margin: 10px 0;
+}
+
+/* Audio player */
+.audio-player {
+  margin: 15px 0;
+  width: 100%;
+}
+
+/* Lyrics block */
+.lyrics {
+  text-align: left;
+  white-space: pre-wrap;
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+  line-height: 1.5;
+}
